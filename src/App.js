@@ -4,6 +4,7 @@ import Ueffect from "./Hooks/useseffect";
 import FetchWithAXIOS from './Hooks/fetchwithaxios'
 import UsReff from "./Hooks/usereff";
 // import UseContexxt from "./Hooks/usecontext";
+import FormSimple from './Form/form'
 
 import React, {createContext} from "react";
 export const LoginContext = createContext();
@@ -20,6 +21,8 @@ function App() {
       <FetchWithAXIOS />
       {/* <UseContexxt /> */}
       <UsReff />
+      <hr></hr>
+      <FormSimple />
     </div>
 
     </LoginContext.Provider>
