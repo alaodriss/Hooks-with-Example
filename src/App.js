@@ -2,6 +2,7 @@ import UseState from "./Hooks/Ustate";
 import HandleMultipleInpout from "./Hooks/handlemultipleinput";
 import Ueffect from "./Hooks/useseffect";
 import FetchWithAXIOS from './Hooks/fetchwithaxios'
+import UsReff from "./Hooks/usereff";
 // import UseContexxt from "./Hooks/usecontext";
 
 import React, {createContext} from "react";
@@ -18,6 +19,7 @@ function App() {
       <Ueffect />
       <FetchWithAXIOS />
       {/* <UseContexxt /> */}
+      <UsReff />
     </div>
 
     </LoginContext.Provider>
