@@ -3,7 +3,7 @@ import React,{useState, useEffect} from 'react'
 const useseffect = () => {
 
     // // useeffect without dependencies
-    
+
     // const [counter, setCounter] = useState(0);
 
 
@@ -70,6 +70,8 @@ const useseffect = () => {
           <h1> counter: {otherCount}</h1>
           <button onClick={increaseCounter}>increase</button>
           <button onClick={increaseCounterby5}>increase by 5</button>
+
+          <hr></hr>
         </div>
       );
 
