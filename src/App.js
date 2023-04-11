@@ -1,11 +1,11 @@
-import HandleMultipleInputs from './Hooks/ HandleMultipleInputs';
-import UseState from './Hooks/usestate'
-
+import UseState from './Hooks/Ustate'
+import HandleMultipleInpout from './Hooks/handlemultipleinput';
 
 function App() {
   return <div>
     <UseState />
-    <HandleMultipleInputs />
+    <HandleMultipleInpout />
+
   </div>;
 }
 
