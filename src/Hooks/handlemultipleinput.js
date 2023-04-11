@@ -36,7 +36,9 @@ const handlemultipleinput = () => {
           <h3>Address : </h3>
           <textarea name="address" onChange={handleChange}></textarea>
           <button type="submit">submit from</button>
+          <hr></hr>
         </form>
+        
       );
 }
 
